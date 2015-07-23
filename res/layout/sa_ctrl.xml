@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- SLSI_ULP_AUDIO: SA control -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+<RadioGroup android:id="@+id/sa_ctrl"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical">
+
+  <RadioButton android:id="@+id/radio_none"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/sa_none" />
+
+  <RadioButton android:id="@+id/radio_3d"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/sa_3d" />
+
+  <RadioButton android:id="@+id/radio_rev"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/sa_rev" />
+
+  <RadioButton android:id="@+id/radio_mc"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/sa_mc" />
+
+  <RadioButton android:id="@+id/radio_be"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/sa_be" />
+
+  <RadioButton android:id="@+id/radio_ext"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/sa_ext" />
+
+  <RadioButton android:id="@+id/radio_mtmv"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/sa_mtmv" />
+
+</RadioGroup>
+<Button android:id="@+id/button_set"
+  android:layout_width="fill_parent"
+  android:layout_height="wrap_content"
+  android:orientation="vertical"
+  android:text="@string/sa_ok"/>
+</LinearLayout>
